@@ -1,0 +1,2 @@
+# DISCORDPLAYSPOKEMON
+yes i agree!
