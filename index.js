@@ -10,10 +10,10 @@ var keypad = gba.keypad;
 var png;
 //DiscordPlaysPokémon(Gameboy)- GBA emulator that is controlled via Discord.
 //-----IMPORTANT SETTINGS-----
-var allowedchannelid = "id";
-var token = "token";
+var allowedchannelid = "561291581228056593";
+var token = process.env.TOKEN;
 //Main rom path, save file path
-var filepaths = ["./romfilename", "./savefilename"];
+var filepaths = ["./nameless-firered-project-a1.02.gba", "./savefile.sav"];
 //This is the help message that is sent to a user (in DMs) when help* is sent
 var helpmsg = "**DiscordPlaysPokémon Help** *Basic commands:* Button syntax: Classic: `a` `b` `l` `r` `start` `select` `up ` `down` `right` `left` Shorthand: `st` (start) `sl` (select) `u` (up) `d` (down) `rt` (right) `lt` (left) `button*times` up to 10. ex: `up*3` or `a*10`. *Advanced Features:* `sav*` Writes and dumps current save file as of last in-game save. `n*times` up to 3. Fetch new screenshots. ex: `n*2` Hold Syntax: Hold works with one button at a time. If you try to push more than that, nothing will happen. `hold*button` Hold d-pad or a/b. Only supports one button at a time. ex: `hold*up` or `hold*b` `letgo*` Let go of current held down button.";
 //-----IMPORTANT SETTINGS-----
